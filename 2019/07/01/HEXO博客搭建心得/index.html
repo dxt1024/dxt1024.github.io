@@ -9,14 +9,14 @@
   <title>Hexo博客搭建心得 | DXT&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="今天，照着网上的教程终于完成了Hexo博客的搭建并部署到了Github上。由于教程是在Mac OS上搭建的，而我的是Win10，所以有些许不同。现在就记录下来。 搭建准备1.安装Git  直接从官网下载即可，运行安装程序，根据提示完成安装。  之后的命令行全在Git Bash下运行。 2.安装Node.js  也是从官网下载，推荐左边的长期支持的比较稳定的版本。下载后，运行安装程序，根据提示完成安">
-<meta name="keywords" content="心得">
+<meta name="keywords" content="心得,攻略">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo博客搭建心得">
 <meta property="og:url" content="http://yoursite.com/2019/07/01/HEXO博客搭建心得/index.html">
 <meta property="og:site_name" content="DXT&#39;s Blog">
 <meta property="og:description" content="今天，照着网上的教程终于完成了Hexo博客的搭建并部署到了Github上。由于教程是在Mac OS上搭建的，而我的是Win10，所以有些许不同。现在就记录下来。 搭建准备1.安装Git  直接从官网下载即可，运行安装程序，根据提示完成安装。  之后的命令行全在Git Bash下运行。 2.安装Node.js  也是从官网下载，推荐左边的长期支持的比较稳定的版本。下载后，运行安装程序，根据提示完成安">
 <meta property="og:locale" content="zh">
-<meta property="og:updated_time" content="2019-07-12T14:44:41.869Z">
+<meta property="og:updated_time" content="2019-07-13T06:57:50.140Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo博客搭建心得">
 <meta name="twitter:description" content="今天，照着网上的教程终于完成了Hexo博客的搭建并部署到了Github上。由于教程是在Mac OS上搭建的，而我的是Win10，所以有些许不同。现在就记录下来。 搭建准备1.安装Git  直接从官网下载即可，运行安装程序，根据提示完成安装。  之后的命令行全在Git Bash下运行。 2.安装Node.js  也是从官网下载，推荐左边的长期支持的比较稳定的版本。下载后，运行安装程序，根据提示完成安">
@@ -30,7 +30,7 @@
   <style type="text/css">
   
     #container.show {
-      background: linear-gradient(200deg,#a0cfe4,#e8c37e);
+      background: linear-gradient(120deg,#0048a1 15%,#316db7 40%,#a6caf7 );
     }
   </style>
   
@@ -44,7 +44,7 @@
     <canvas id="anm-canvas" class="anm-canvas"></canvas>
     <div class="left-col" q-class="show:isShow">
       
-<div class="overlay" style="background: #000000"></div>
+<div class="overlay" style="background: #0048a1"></div>
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
@@ -84,7 +84,7 @@
 				
 					<a class="github" target="_blank" href="https://github.com/dxt1024" title="github"><i class="icon-github"></i></a>
 		        
-					<a class="mail" target="_blank" href="mailto:17888841147@163.com" title="mail"><i class="icon-mail"></i></a>
+					<a class="mail" target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=IRgYFxETFRkTEGFQUA9CTkw" title="mail"><i class="icon-mail"></i></a>
 		        
 			</div>
 		</nav>
@@ -95,7 +95,7 @@
     <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
       
 <nav id="mobile-nav">
-  	<div class="overlay js-overlay" style="background: #000000"></div>
+  	<div class="overlay js-overlay" style="background: #0048a1"></div>
 	<div class="btnctn js-mobile-btnctn">
   		<div class="slider-trigger list" q-on="click: openSlider(e)"><i class="icon icon-sort"></i></div>
 	</div>
@@ -123,7 +123,7 @@
 					
 						<a class="github" target="_blank" href="https://github.com/dxt1024" title="github"><i class="icon-github"></i></a>
 			        
-						<a class="mail" target="_blank" href="mailto:17888841147@163.com" title="mail"><i class="icon-mail"></i></a>
+						<a class="mail" target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=IRgYFxETFRkTEGFQUA9CTkw" title="mail"><i class="icon-mail"></i></a>
 			        
 				</div>
 			</nav>
@@ -172,14 +172,14 @@
         <p>今天，照着网上的教程终于完成了Hexo博客的搭建并部署到了Github上。由于教程是在Mac OS上搭建的，而我的是Win10，所以有些许不同。现在就记录下来。</p>
 <h2 id="搭建准备"><a href="#搭建准备" class="headerlink" title="搭建准备"></a>搭建准备</h2><h3 id="1-安装Git"><a href="#1-安装Git" class="headerlink" title="1.安装Git"></a>1.安装Git</h3><p>  直接从<a href https: git-scm.com "">官网</a>下载即可，运行安装程序，根据提示完成安装。<br>  之后的命令行全在Git Bash下运行。</p>
 <h3 id="2-安装Node-js"><a href="#2-安装Node-js" class="headerlink" title="2.安装Node.js"></a>2.安装Node.js</h3><p>  也是从<a href https: nodejs.org en "">官网</a>下载，推荐左边的长期支持的比较稳定的版本。下载后，运行安装程序，根据提示完成安装。<br>  <code>node -v</code><br>  验证是否安装成功。</p>
-<h3 id="3-安装Hexo"><a href="#3-安装Hexo" class="headerlink" title="3.安装Hexo"></a>3.安装Hexo</h3><p>  安装淘宝npm镜像，加快后续文件的下载速度。如果对网速有自信，可以不安装，之后的cnpm命令全部改为npm。<br>  <code>npm instal -g cnpm --registry=https://registry.npm.taobao.org</code><br>  安装Hexo<br>  <code>cnpm instal -g hexo-cli</code><br>  验证是否安装成功<br>  <code>heox -v</code><br>  <strong><em>注意</em></strong><br>  1.npm的core-js版本可能会较低引发错误,需要更新版本<br>  <code>cnpm install -g core-js@3</code><br>  2.hexo 3以后server模块需要手动安装<br>  <code>cnpm install -g hexo-server --save</code></p>
+<h3 id="3-安装Hexo"><a href="#3-安装Hexo" class="headerlink" title="3.安装Hexo"></a>3.安装Hexo</h3><p>  安装淘宝npm镜像，加快后续文件的下载速度。如果对网速有自信，可以不安装，之后的cnpm命令全部改为npm。<br>  <code>npm instal -g cnpm --registry=https://registry.npm.taobao.org</code><br>  安装Hexo<br>  <code>cnpm instal -g hexo-cli</code><br>  验证是否安装成功<br>  <code>heox -v</code><br>  <strong><em>注意</em></strong><br>  <a id="more"></a><br>  1.npm的core-js版本可能会较低引发错误,需要更新版本<br>  <code>cnpm install -g core-js@3</code><br>  2.hexo 3以后server模块需要手动安装<br>  <code>cnpm install -g hexo-server --save</code></p>
 <h2 id="开始搭建"><a href="#开始搭建" class="headerlink" title="开始搭建"></a>开始搭建</h2><h3 id="1-创建工作目录"><a href="#1-创建工作目录" class="headerlink" title="1.创建工作目录"></a>1.创建工作目录</h3><p>  1.在合适的目录下创建新文件夹<br>  <code>mkdir MyBlog</code><br>  2.初始化工作目录<br>  <code>hexo init</code></p>
-<h3 id="2-创建新博文"><a href="#2-创建新博文" class="headerlink" title="2.创建新博文"></a>2.创建新博文</h3><p>  1.新建新博文<br>  <code>hexo n &quot;博文名&quot;</code><br>  2.在source/_posts/下找到“博文名.md”，并用Markdown语言编辑博文。</p>
+<h3 id="2-创建新博文"><a href="#2-创建新博文" class="headerlink" title="2.创建新博文"></a>2.创建新博文</h3><p>  1.新建新博文<br>  <code>hexo n &quot;博文名&quot;</code><br>  2.在<code>source/_posts/</code>下找到<code>博文名.md</code>，并用Markdown语言编辑博文。</p>
 <h3 id="3-生成静态文件"><a href="#3-生成静态文件" class="headerlink" title="3.生成静态文件"></a>3.生成静态文件</h3><p>  <code>hexo g</code></p>
 <h3 id="4-在本地浏览博客"><a href="#4-在本地浏览博客" class="headerlink" title="4.在本地浏览博客"></a>4.在本地浏览博客</h3><p>  1.开启Hexo服务<br>  <code>heox s</code><br>  2.在 <a href="localhost:4000" target="_blank" rel="noopener">localhost:4000</a> 中浏览博客</p>
-<h2 id="部署到Github"><a href="#部署到Github" class="headerlink" title="部署到Github"></a>部署到Github</h2><p>  1.在Github创建储存库，名字必须为”username.github.io”,”username”为Github账号的用户名。<br>  2.更改配置文件，打开”_config.yml”,更改最后一项Deployment，<br>  <figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">deploy:</span></span><br><span class="line"><span class="string">type:</span> git</span><br><span class="line"><span class="string">repo:</span> <span class="string">https:</span><span class="comment">//github.com/username/username.github.io.git</span></span><br><span class="line"><span class="string">branch:</span> master</span><br></pre></td></tr></table></figure></p>
+<h2 id="部署到Github"><a href="#部署到Github" class="headerlink" title="部署到Github"></a>部署到Github</h2><p>  1.在Github创建储存库，名字必须为<code>username.github.io</code>,<code>username</code>为Github账号的用户名。<br>  2.更改配置文件，打开<code>_config.yml</code>,更改最后一项<code>Deployment</code>，<br>  <figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">deploy:</span></span><br><span class="line"><span class="string">type:</span> git</span><br><span class="line"><span class="string">repo:</span> <span class="string">https:</span><span class="comment">//github.com/username/username.github.io.git</span></span><br><span class="line"><span class="string">branch:</span> master</span><br></pre></td></tr></table></figure></p>
 <p>  3.重新生成静态文件<br>  <code>hexo g</code><br>  4.部署到Github<br>  <code>hexo d</code></p>
-<h2 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h2><p>1.找到一个合适的主题，将其下载到themes文件夹中，我选择了Github上的yilia主题<br><code>git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia</code><br>2.在配置文件”_config.yml”中找到themes项，更改主题名<br>3.重新生成静态文件，重新部署<br>4.主题的配置请自行参阅主题的说明文档</p>
+<h2 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h2><p>  1.找到一个合适的主题，将其下载到themes文件夹中，我选择了Github上的yilia主题<br>  <code>git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia</code><br>  2.在配置文件<code>_config.yml</code>中找到themes项，更改主题名<br>  3.重新生成静态文件，重新部署<br>  4.主题的配置请自行参阅主题的说明文档</p>
 
       
 
@@ -194,6 +194,10 @@
 			 
         		<li class="article-tag-list-item">
         			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">心得</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">攻略</a>
         		</li>
       		
 		</ul>
@@ -211,6 +215,15 @@
 
   
 <nav id="article-nav">
+  
+    <a href="/2019/07/03/配置博客主题时的新发现/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          配置博客主题时的新发现
+        
+      </div>
+    </a>
   
   
     <a href="/2019/07/01/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
@@ -337,6 +350,18 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">心得</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">攻略</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">测试</a>
               </li>
             
             <div class="clearfix"></div>
